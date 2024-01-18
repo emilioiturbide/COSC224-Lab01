@@ -4,6 +4,12 @@ body {
     font-family:courier;
     font-size:12px;
 }
+header{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
 h1{
     color:darkseagreen;
 }
@@ -16,6 +22,15 @@ a:visited{
 a:hover {
     color:moccasin;
 }
+.half{
+    width: 40%;
+    display:inline-block;
+    margin-right: 2%;
+}
+.whole{
+    clear: both;
+    text-align: center;
+}
 #sidenav{
     text-align: center;
     margin-bottom: 20px;
@@ -24,10 +39,18 @@ a:hover {
     height: 175px;
     margin: auto;
 }
-div {
+#content{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 175px;
+    height: 175px;
+    margin: auto;
+}
+/*div {
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
     padding: 25px 50px 75px 100px;
-  }
+  }*/
